@@ -13,6 +13,8 @@
     "blog": "source/content/blog/"
   },
   "site": {
+    "name": "grunt-boilerplate",
+    "title": "Grunt Boilerplate",
     "defaultLayout": "page.hbs",
     "localPort": 3000
   }
