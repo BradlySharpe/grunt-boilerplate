@@ -3,7 +3,7 @@ module.exports = {
     helpers: '<%= config.directories.helpers %>**/*.js',
     layout: '<%= config.site.defaultLayout %>',
     layoutdir: '<%= config.directories.layouts %>',
-    partials: '<%= config.directories.partials %>**/*.hbs',
+    partials: '<%= config.directories.partials %>**/*.{hbs,css}',
     plugins: ['grunt-assemble-permalinks'],
     permalinks: {
       structure: ':basename/index:ext'
