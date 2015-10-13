@@ -1,11 +1,18 @@
 {
-  "source": {
-    "directory": "source",
-    "configuration": {
-      "directory": "source/configuration"
-    }
+  "directories" : {
+    "source": "source/",
+    "destination": "destination/",
+    "configuration": "source/configuration/",
+    "helpers": "source/configuration/helpers/",
+    "layouts": "source/configuration/layouts/",
+    "partials": "source/configuration/partials/",
+    "sass": "source/configuration/sass/",
+    "scripts": "source/configuration/scripts/",
+    "content": "source/content/",
+    "pages": "source/content/_pages/",
+    "blog": "source/content/blog/"
   },
-  "destination": {
-    "directory": "destination"
+  "site": {
+    "defaultLayout": "page.hbs"
   }
 }
