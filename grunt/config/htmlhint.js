@@ -5,5 +5,5 @@ module.exports = {
       ignore: []
     },
     src: [ '<%= config.directories.destination %>**/*.html' ]
-}
+  }
 };
