@@ -4,11 +4,13 @@ module.exports = {
     emitSuccess: true,
     reporterOutput: 'SCSS-Lint-Report.xml',
     exclude: [
-      'bower_components/Boneless/boneless.scss'
+      'bower_components/Boneless/**/*.scss'
     ]
   },
-  allFiles: [
-    //'<%= config.directories.partials %>css/*.scss',
+  sass: [
     '<%= config.directories.sass %>site.scss'
+  ],
+  partials: [
+    '<%= config.directories.partials %>css/*.scss'
   ]
 };
