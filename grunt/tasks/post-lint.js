@@ -1,3 +1,3 @@
 module.exports = function(grunt) {
-  grunt.registerTask('post-lint', [ 'jshint:compiled' ]);
+  grunt.registerTask('post-lint', [ 'jshint:compiled', 'htmlhint' ]);
 };
