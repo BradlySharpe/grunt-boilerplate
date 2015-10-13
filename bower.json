@@ -20,7 +20,6 @@
     "dist"
   ],
   "dependencies": {
-    "Boneless": "boneless.scss#~1.0.0",
-    "normalize-css": "normalize.css#~3.0.3"
+    "Boneless": "boneless.scss#~1.0.0"
   }
 }
