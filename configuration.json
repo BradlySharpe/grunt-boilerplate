@@ -1,1 +1,11 @@
-{ }
+{
+  "source": {
+    "directory": "source",
+    "configuration": {
+      "directory": "configuration"
+    }
+  },
+  "destination": {
+    "directory": "destination"
+  }
+}
