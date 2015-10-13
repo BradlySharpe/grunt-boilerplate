@@ -6,7 +6,9 @@
       configPath: require('path').join(process.cwd(), 'grunt/config'),
       jitGrunt: {
         customTasksDir: 'grunt/tasks',
-        staticMappings: { }
+        staticMappings: {
+          bower: 'main-bower-files',
+        }
       },
       data: {
         config: grunt.file.readJSON('./configuration.json'),

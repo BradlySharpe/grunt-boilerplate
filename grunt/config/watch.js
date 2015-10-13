@@ -7,5 +7,9 @@ module.exports = {
   html: {
     files: ['<%= config.directories.source %>**/*.hbs'],
     tasks: [ 'compile-html' ]
+  },
+  bower: {
+    files: [ 'bower_components/*' ],
+    tasks: [ 'bower-dependencies' ]
   }
 };
