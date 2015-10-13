@@ -1,0 +1,26 @@
+{
+  "name": "grunt-boilerplate",
+  "version": "0.0.1",
+  "authors": [
+    "Bradly Sharpe"
+  ],
+  "description": "Template for generator",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "dist"
+  ],
+  "dependencies": {
+    "Boneless": "boneless.scss#~1.0.0",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
