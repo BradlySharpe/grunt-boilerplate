@@ -1,1 +1,5 @@
-# grunt-boilerplate
+# Site Boilerplate
+
+Uses:
+- Grunt
+- Assemble.io
