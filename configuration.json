@@ -2,7 +2,7 @@
   "source": {
     "directory": "source",
     "configuration": {
-      "directory": "configuration"
+      "directory": "source/configuration"
     }
   },
   "destination": {
