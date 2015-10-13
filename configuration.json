@@ -10,7 +10,8 @@
     "scripts": "source/configuration/scripts/",
     "content": "source/content/",
     "pages": "source/content/_pages/",
-    "blog": "source/content/blog/"
+    "blog": "source/content/blog/",
+    "images": "source/content/images/"
   },
   "site": {
     "name": "grunt-boilerplate",
