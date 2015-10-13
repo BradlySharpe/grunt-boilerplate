@@ -13,6 +13,7 @@
     "blog": "source/content/blog/"
   },
   "site": {
-    "defaultLayout": "page.hbs"
+    "defaultLayout": "page.hbs",
+    "localPort": 3000
   }
 }
