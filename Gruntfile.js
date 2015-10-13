@@ -8,6 +8,7 @@
         customTasksDir: 'grunt/tasks',
         staticMappings: {
           bower: 'main-bower-files',
+          scsslint: 'grunt-scss-lint'
         }
       },
       data: {
