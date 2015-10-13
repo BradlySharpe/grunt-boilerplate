@@ -4,3 +4,4 @@ bower_components/
 destination/
 source/configuration/partials/css/*.css
 .sass-cache/
+SCSS-Lint-Report.xml
