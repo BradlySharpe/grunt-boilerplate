@@ -1,5 +1,5 @@
 module.exports = {
-  dev: {
+  build: {
     base: 'bower_components',
     dest: '<%= config.directories.destination %>bower_components',
     options: {
