@@ -1,0 +1,17 @@
+{{> header }}
+/* { {> css/blog-min }} */
+</style>
+</head>
+<body>
+<div class="header">
+  <h2 class="title">{{ config 'site.title' }}</h2>
+  {{> navigation }}
+</div>
+<div class="page blog">
+  <div class="row">
+    {{#markdown}}
+      {{> body }}
+    {{/markdown}}
+  </div>
+</div>
+{{> footer }}

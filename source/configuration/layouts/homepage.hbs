@@ -1,0 +1,17 @@
+{{> header }}
+/* { {> css/home-min }} */
+</style>
+</head>
+<body>
+<div class="header">
+  <h2 class="title">{{ config 'site.title' }}</h2>
+  {{> navigation }}
+</div>
+<div class="page homepage">
+  <div class="row">
+    {{#markdown}}
+      {{> body }}
+    {{/markdown}}
+  </div>
+</div>
+{{> footer }}
