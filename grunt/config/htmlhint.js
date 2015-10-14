@@ -1,7 +1,7 @@
 module.exports = {
   dev: {
     options: {
-      force: false,
+      force: true,
       ignore: []
     },
     src: [ '<%= config.directories.destination %>**/*.html' ]
