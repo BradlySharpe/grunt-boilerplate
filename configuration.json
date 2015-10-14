@@ -17,6 +17,8 @@
     "name": "grunt-boilerplate",
     "title": "Grunt Boilerplate",
     "defaultLayout": "page.hbs",
-    "localPort": 3000
+    "localPort": 3000,
+    "protocol": "http",
+    "domain": "google.com"
   }
 }
