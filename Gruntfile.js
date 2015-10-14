@@ -19,3 +19,11 @@
     });
   };
 }());
+
+/*
+https://github.com/DeuxHuitHuit/grunt-analyze-css
+https://github.com/bezoerb/grunt-critical
+https://github.com/addyosmani/critical#options
+https://github.com/elliottwilliams/grunt-colorguard
+https://www.npmjs.com/package/grunt-wpt
+ */
