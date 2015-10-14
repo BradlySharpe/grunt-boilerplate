@@ -2,7 +2,7 @@ module.exports = {
   options: {
     log: true
   },
-  dev: {
+  destination: {
     files: [
       {
         expand: true,
