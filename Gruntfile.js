@@ -8,7 +8,8 @@
         customTasksDir: 'grunt/tasks',
         staticMappings: {
           bower: 'main-bower-files',
-          scsslint: 'grunt-scss-lint'
+          scsslint: 'grunt-scss-lint',
+          cmq: 'grunt-combine-media-queries'
         }
       },
       data: {

@@ -1,3 +1,3 @@
 module.exports = function(grunt) {
-  grunt.registerTask('optimise', [ 'imagemin', 'htmlmin' ]);
+  grunt.registerTask('optimise', [ 'imagemin', 'htmlmin', 'cmq' ]);
 };
