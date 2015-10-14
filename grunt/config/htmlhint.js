@@ -1,5 +1,5 @@
 module.exports = {
-  dev: {
+  destination: {
     options: {
       force: true,
       ignore: []

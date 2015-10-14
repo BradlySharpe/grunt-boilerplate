@@ -2,7 +2,7 @@ module.exports = {
   options: {
     optimizationLevel: 5
   },
-  dev: {
+  destination: {
     files: [
       {
         expand: true,
