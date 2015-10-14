@@ -24,6 +24,10 @@ module.exports = {
     files: ['grunt/**/*.js', 'Gruntfile.js', 'configuration.json', 'package.json'],
     tasks: [ 'full-build' ]
   },
+  images: {
+    files: ['<%= config.directories.partials %>**/*.{png,jpg,jpeg,gif,svg,ico}'],
+    tasks: [ 'imagemin' ]
+  },
   bower: {
     files: [ 'bower_components/*' ],
     tasks: [ 'bower-dependencies' ]
