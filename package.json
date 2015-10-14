@@ -33,6 +33,7 @@
     "grunt-sitemap": "^1.2.1",
     "grunt-uncss": "^0.4.3",
     "grunt-wiredep": "^2.0.0",
+    "grunt-wpt": "^3.1.1",
     "grunt-yslow": "0.0.4",
     "jit-grunt": "^0.9.1",
     "jshint-stylish": "^2.0.1",
