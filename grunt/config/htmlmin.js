@@ -9,7 +9,7 @@ module.exports = {
         expand: true,
         cwd: '<%= config.directories.destination %>',
         src: ['**/*.html'],
-        dest: '<%= config.directories.destination %>'
+        dest: '<%= config.directories.destination %>compressed/'
       }
     ]
   }
