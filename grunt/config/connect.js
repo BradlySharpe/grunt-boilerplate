@@ -1,11 +1,13 @@
 module.exports = {
   options: {
     livereload: true,
-    port: '<%= config.site.localPort %>'
+    port: '<%= config.site.localPort %>',
+    base: '<%= config.directories.destination %>'
   },
-  dev: {
+  destination: { },
+  ngrok: {
     options: {
-      base: '<%= config.directories.destination %>'
+      livereload: false
     }
   }
 };

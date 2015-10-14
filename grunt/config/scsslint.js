@@ -8,7 +8,7 @@ module.exports = {
     ]
   },
   sass: [
-    '<%= config.directories.sass %>site.scss'
+    '<%= config.directories.sass %><%= config.site.name %>.scss'
   ],
   partials: [
     '<%= config.directories.partials %>css/*.scss'

@@ -20,5 +20,23 @@
     "localPort": 3000,
     "protocol": "http",
     "domain": "google.com"
+  },
+  "pagespeed": {
+    "locale": "en_GB",
+    "mobileThreshold": {
+      "local": 80,
+      "remote": 80
+    },
+    "desktopThreshold": {
+      "local": 80,
+      "remote": 80
+    },
+    "testPages": [ "" ]
+  },
+  "yslow": {
+    "weight": 180,
+    "speed": 1000,
+    "score": 80,
+    "requests": 15
   }
 }
