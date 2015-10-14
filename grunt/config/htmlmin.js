@@ -3,7 +3,7 @@ module.exports = {
     removeComments: true,
     collapseWhitespace: true
   },
-  dev: {
+  destination: {
     files: [
       {
         expand: true,
