@@ -8,13 +8,9 @@ module.exports = {
     files: ['<%= config.directories.source %>**/*.hbs'],
     tasks: [ 'compile-html' ]
   },
-  'css-partials': {
-    files: ['<%= config.directories.partials %>css/**/*.scss'],
-    tasks: [ 'compile-css-partials', 'compile-html' ]
-  },
-  'css-sass': {
+  css: {
     files: ['<%= config.directories.sass %>**/*.scss'],
-    tasks: [ 'compile-css-sass' ]
+    tasks: [ 'compile-css' ]
   },
   js: {
     files: ['<%= config.directories.scripts %>**/*.js'],
