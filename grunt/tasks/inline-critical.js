@@ -5,10 +5,9 @@ module.exports = function(grunt) {
         critical = require('critical'),
         opt = self.options({
           dimensions: [
-            { width: 320, height: 480 },
-            { width: 414, height: 736 },
-            { width: 768, height: 1024 },
-            { width: 1280, height: 800 }
+            { width: 320, height: 480 },  // Mobile
+            { width: 768, height: 1024 }, // Tablet
+            { width: 1280, height: 800 }  // Desktop
           ],
           minify: true,
           ignore: [],
@@ -18,18 +17,18 @@ module.exports = function(grunt) {
         }),
         stylesheets;
 
-
       if (!opt.css) {
         grunt.fail.fatal('CSS option not passed');
         done(false);
       }
       stylesheets = grunt.file.expand(opt.css);
+      if (!stylesheets.length) {
+        grunt.fail.fatal('No CSS files found that match pattern');
+        done(false);
+      }
       grunt.log.ok('Found the following CSS files:', stylesheets);
 
       var generate = function(file, count, length) {
-        grunt.log.write("Inlining CSS for: " + file.dest + " - using: ");
-        grunt.log.writeln(stylesheets);
-        console.log(opt.base + file.dest);
         critical.generate({
           css: stylesheets,
           inline: true,
@@ -42,6 +41,10 @@ module.exports = function(grunt) {
           ignore: opt.ignore,
           ignoreOptions: opt.ignoreOptions
         }, function(err, output) {
+          if (null !== err) {
+            grunt.fail.fatal(err);
+            done(false);
+          }
           if (count === length-1) {
             done();
           }
