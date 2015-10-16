@@ -1,3 +1,3 @@
 module.exports = function(grunt) {
-  grunt.registerTask('pre-deploy', [ 'sitemap' ]);
+  grunt.registerTask('pre-deploy', [ 'sitemap', 'accessibility' ]);
 };
