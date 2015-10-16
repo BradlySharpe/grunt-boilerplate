@@ -19,7 +19,7 @@
     "defaultLayout": "page.hbs",
     "localPort": 3000,
     "protocol": "http",
-    "domain": "google.com"
+    "domain": "bradlysharpe.com.au"
   },
   "pagespeed": {
     "locale": "en_GB",

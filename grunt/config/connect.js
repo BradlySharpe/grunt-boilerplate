@@ -5,7 +5,7 @@ module.exports = {
     base: '<%= config.directories.destination %>'
   },
   destination: { },
-  ngrok: {
+  local: {
     options: {
       livereload: false
     }

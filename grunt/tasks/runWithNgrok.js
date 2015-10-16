@@ -25,7 +25,7 @@ module.exports = function(grunt) {
         grunt.config.set('ngrok.url', url);
 
         grunt.log.ok('Queueing local web server');
-        grunt.task.run('connect:ngrok');
+        grunt.task.run('connect:local');
 
         tasks.forEach(function(task) {
           task = task.replace(".", ":");
