@@ -22,16 +22,5 @@ module.exports = {
         ext: '.min.css'
       }
     ]
-  },
-  partials: {
-    files : [
-      {
-        expand: true,
-        cwd: '<%= config.directories.partials %>css/',
-        src: ['**/*.css', '!**/*-min.css'],
-        dest: '<%= config.directories.partials %>css/',
-        ext: '-min.css'
-      }
-    ]
   }
 };

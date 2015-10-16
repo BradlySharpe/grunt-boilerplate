@@ -1,3 +1,3 @@
 module.exports = function(grunt) {
-  grunt.registerTask('full-build', [ 'pre-lint', 'compile-css-partials', 'compile-html', 'compile-css-sass', 'compile-js', 'optimise', 'post-lint' ]);
+  grunt.registerTask('full-build', [ 'pre-lint', 'compile-html', 'compile-css', 'compile-js', 'optimise', 'post-lint' ]);
 };
